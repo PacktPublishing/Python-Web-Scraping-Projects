@@ -1,4 +1,4 @@
-# Python Web Scraping Projects Chapter 2
+# Python Web Scraping Projects Chapter 3
 
 This is repository for project covered in "Python Web Scraping Projects" book by Bernardas Ališauskas and Packt publishing.
 
