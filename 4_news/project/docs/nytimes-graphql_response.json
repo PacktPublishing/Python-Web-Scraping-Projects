@@ -1,0 +1,892 @@
+{
+  "data": {
+    "legacySearch": {
+      "__typename": "LegacySearchResult",
+      "hits": {
+        "__typename": "LegacySearchHitsConnection",
+        "totalCount": 5101,
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "YXJyYXljb25uZWN0aW9uOjM5",
+          "__typename": "PageInfo"
+        },
+        "metadata": {
+          "spotlights": [],
+          "__typename": "SearchMetadata"
+        },
+        "edges": [
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2Q4MjJhMTJlLTlmN2QtNTQ2Yy05YTc0LTFiNWRkOTIzMjA1NA==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/todayspaper/quotation-of-the-day-va-doctors-say-rating-push-hurts-patient-care.html",
+                "promotionalHeadline": "Quotation of the Day: V.A. Doctors Say Rating Push Hurts Patient Care",
+                "promotionalSummary": "Quotation of the Day for Monday, January 1, 2018.",
+                "promotionalMedia": null,
+                "section": {
+                  "displayName": "Today’s Paper",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2U5MjVmOGQwLTY5NjUtNTJlOC1hN2VlLTU1OWQ3NjZkZjk4MQ==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [],
+                "creativeWorkHeadline": {
+                  "default": "Quotation of the Day: V.A. Doctors Say Rating Push Hurts Patient Care",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "Quotation of the Day for Monday, January 1, 2018.",
+                "lastModified": "2018-01-01T08:00:00.675Z",
+                "lastMajorModification": "2018-01-01T08:00:00.675Z",
+                "firstPublished": "2018-01-01T08:00:00.675Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2ZlZWM1YTgyLTJjNmUtNTdhNi1iZjdjLTAwN2MxYWMzYzYwMw==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/us/at-veterans-hospital-in-oregon-a-push-for-better-ratings-puts-patients-at-risk-doctors-say.html",
+                "promotionalHeadline": "V.A. Doctors Say Rating Push Hurts Patients",
+                "promotionalSummary": "At Roseburg Veterans Affairs Medical Center in Oregon, doctors and nurses said, hospital administrators reject high-risk patients in pursuit of a higher score.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/01/us/01roseburg/00roseburg1-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "U.S.",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2EzNGQzZDZjLWM3N2YtNTkzMS1iOTUxLTI0MWI0ZTI4NjgxYw==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Dave Philipps",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "At Veterans Hospital in Oregon, a Push for Better Ratings Puts Patients at Risk, Doctors Say",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "At Roseburg Veterans Affairs Medical Center, doctors and nurses said, hospital administrators reject high-risk patients in pursuit of a higher score.",
+                "lastModified": "2018-01-03T04:32:47.765Z",
+                "lastMajorModification": "2018-01-02T21:14:47.000Z",
+                "firstPublished": "2018-01-01T08:00:14.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "VmlkZW86bnl0Oi8vdmlkZW8vMzhkNDYzNjAtMmZkYy01Mzk5LTg1NzEtMWZkZjhkZjdmMTQy",
+                "__typename": "Video",
+                "url": "https://www.nytimes.com/video/science/100000005623900/how-to-measure-turtle-stamina-treadmills-and-lap-pools-of-course.html",
+                "promotionalHeadline": "Turtle Treadmills, a Novel Test for Stamina",
+                "promotionalSummary": "Hatchling sea turtles are sturdier than you may expect. They get their endurance from a stop-and-go crawling style.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "Science",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2ZiMjQxZTE2LWNiZGUtNWQ2MC1iZTZlLTZiY2E5ZTg2YzY5Nw==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By James Gorman and Christopher Whitworth",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "Turtle Treadmills, a Novel Test for Stamina",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "Hatchling sea turtles are sturdier than you may expect. They get their endurance from a stop-and-go crawling style.",
+                "lastModified": "2018-01-11T10:47:02.462Z",
+                "lastMajorModification": "2018-01-11T10:47:02.462Z",
+                "firstPublished": "2018-01-01T10:00:03.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "SW50ZXJhY3RpdmU6bnl0Oi8vaW50ZXJhY3RpdmUvNzc4NjhjYTUtYzNlNy01NGE5LWE2OTUtNjZmYzQxZTUzYTJj",
+                "__typename": "Interactive",
+                "url": "https://www.nytimes.com/interactive/2018/01/01/arts/02women-letter.html",
+                "promotionalHeadline": "Open Letter From Time's Up",
+                "promotionalSummary": "The open letter signed by women in show business for a new initiative to fight systemic sexual harassment in Hollywood and in blue-collar workplaces nationwide.",
+                "promotionalMedia": null,
+                "section": {
+                  "displayName": "Arts",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzZlNmVlMjkyLWI0YmQtNTAwNi1hNjE5LTljZWFiMDM1MjRmMg==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [],
+                "creativeWorkHeadline": {
+                  "default": "Open Letter From Time's Up",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "The open letter signed by women in show business for a new initiative to fight systemic sexual harassment in Hollywood and in blue-collar workplaces nationwide.",
+                "lastModified": "2018-05-10T16:39:51.123Z",
+                "lastMajorModification": "2018-05-10T16:39:51.123Z",
+                "firstPublished": "2018-01-01T10:00:03.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2QxM2MxYmI3LTM5ODYtNTIyZS1hMmM1LTU4YmFmZjNiM2M1MA==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/books/review/daniel-alarcon-the-king-is-always-above-the-people.html",
+                "promotionalHeadline": "Displaced Persons",
+                "promotionalSummary": "In Daniel Alarcón’s “The King Is Always Above the People,” young men in new situations find out who they really are.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/07/books/review/07Lalami/07Lalami-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "Books",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzU1MGY3NWUyLWZjMzctNWQ1Yy05ZGQxLWM2NjVhYzIyMWI0OQ==",
+                  "__typename": "Section"
+                },
+                "subsection": {
+                  "displayName": "Book Review",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzVhMWI1MmI1LTJjYzctNWQ4ZC05NDViLTMwZjY5YmVjZGVhZg==",
+                  "__typename": "Section"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Laila Lalami",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "Displaced Persons",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "In Daniel Alarcón’s “The King Is Always Above the People,” young men in new situations find out who they really are.",
+                "lastModified": "2018-01-10T19:21:39.347Z",
+                "lastMajorModification": "2018-01-01T10:00:27.000Z",
+                "firstPublished": "2018-01-01T10:00:27.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlLzVlZjY1YjU0LTJhZDYtNWI5Ny05YjZhLTIwNmY1NTAyZmNlMA==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/science/head-shape-brain.html",
+                "promotionalHeadline": "How Does the Shape of a Head Affect the Brain?",
+                "promotionalSummary": "Studies of head compression are inconclusive as to whether cranial shaping caused learning or behavior disorders.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02QnA/02QnA-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "Science",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2ZiMjQxZTE2LWNiZGUtNWQ2MC1iZTZlLTZiY2E5ZTg2YzY5Nw==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By C. Claiborne Ray",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "How Does the Shape of a Head Affect the Brain?",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "Studies of head compression are inconclusive as to whether cranial shaping caused learning or behavior disorders.",
+                "lastModified": "2018-01-02T05:01:00.196Z",
+                "lastMajorModification": "2018-01-01T10:00:27.000Z",
+                "firstPublished": "2018-01-01T10:00:27.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlLzkxOWMzMGFlLThhMDAtNThjNS04MDgyLTZlZjg4YjdlNjIyNw==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/arts/how-astrology-took-over-the-internet.html",
+                "promotionalHeadline": "How Astrology Took Over the Internet",
+                "promotionalSummary": "Suddenly trendy again, astrology checks several boxes for viral-happy content.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/02/arts/02astrology-internet/02astrology-internet-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "Arts",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzZlNmVlMjkyLWI0YmQtNTAwNi1hNjE5LTljZWFiMDM1MjRmMg==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Amanda Hess",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "How Astrology Took Over the Internet",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "Suddenly trendy again, astrology checks several boxes for viral-happy content: It provides an easy framework for personalized material, speaks to young women and accesses ’90s nostalgia. ",
+                "lastModified": "2018-01-02T16:04:28.354Z",
+                "lastMajorModification": "2018-01-01T10:00:27.000Z",
+                "firstPublished": "2018-01-01T10:00:27.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlLzg0NzY4OWY2LTk2MTEtNWNiMy1hZGYyLTE2YmY5NmE3YmYxNg==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/world/asia/china-kazakhstan-silk-road.html",
+                "promotionalHeadline": "China’s Ambitious New ‘Port’: Landlocked Kazakhstan",
+                "promotionalSummary": "In a wilderness of frozen desert, China and Kazakhstan are reviving a Silk Road land bridge between Asia and Europe, reshaping trade and geopolitics.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2017/12/28/world/00KAZAKHSTAN-01/merlin_131572247_8ed1d01f-8432-4539-99ab-3135e463fe5b-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "World",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzcwZTg2NWI2LWNjNzAtNTE4MS04NGM5LTgzNjhiM2E1YzM0Yg==",
+                  "__typename": "Section"
+                },
+                "subsection": {
+                  "displayName": "Asia Pacific",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2I0YzliNWM1LTFmNDYtNTJlNi04MWNkLWMzNjRlYTAxMmFkOA==",
+                  "__typename": "Section"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Andrew Higgins",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "China’s Ambitious New ‘Port’: Landlocked Kazakhstan",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "In a wilderness of frozen desert, China and Kazakhstan are reviving a Silk Road land bridge between Asia and Europe, reshaping trade and geopolitics.",
+                "lastModified": "2018-10-10T22:10:19.328Z",
+                "lastMajorModification": "2018-01-01T23:11:54.000Z",
+                "firstPublished": "2018-01-01T10:00:28.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlLzM4NTBjMzExLTg2MTctNTExYi04YjIwLThkYjIwOGYxNGM5Yg==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/science/turtle-hatchlings-beach-lights.html",
+                "promotionalHeadline": "Beach Crawling Doesn’t Tire Out Baby Sea Turtles",
+                "promotionalSummary": "When hatchling turtles tackled a treadmill, their stop-and-go style of crawling kept them fresh enough for a big swim to the Gulf Stream.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/02/science/02SCI-TAKE/02SCI-TAKE-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "Science",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2ZiMjQxZTE2LWNiZGUtNWQ2MC1iZTZlLTZiY2E5ZTg2YzY5Nw==",
+                  "__typename": "Section"
+                },
+                "subsection": null,
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By James Gorman",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "Beach Crawling Doesn’t Tire Out Baby Sea Turtles",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "When hatchling turtles tackled a treadmill, their stop-and-go style of crawling kept them fresh enough for a big swim to the Gulf Stream.",
+                "lastModified": "2018-01-10T17:12:15.342Z",
+                "lastMajorModification": "2018-01-03T11:13:26.000Z",
+                "firstPublished": "2018-01-01T10:00:28.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          },
+          {
+            "node": {
+              "__typename": "BodegaResult",
+              "node": {
+                "id": "QXJ0aWNsZTpueXQ6Ly9hcnRpY2xlL2U2YTI4MDY5LTgwNzYtNTBiMi05NjE3LTUzOTJhOTZmOTRmNQ==",
+                "__typename": "Article",
+                "url": "https://www.nytimes.com/2018/01/01/us/politics/rental-car-privacy-supreme-court.html",
+                "promotionalHeadline": "Pulled Over in a Rental Car, With Heroin in the Trunk",
+                "promotionalSummary": "The Supreme Court will hear arguments next week about whether drivers not listed in rental car agreements give up their privacy rights.",
+                "promotionalMedia": {
+                  "__typename": "Image",
+                  "crops": [
+                    {
+                      "name": "THREE_BY_TWO",
+                      "renditions": [
+                        {
+                          "width": 190,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-thumbWide.jpg",
+                          "name": "thumbWide",
+                          "height": 126,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 75,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-videoThumb.jpg",
+                          "name": "videoThumb",
+                          "height": 50,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 768,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-videoLarge.jpg",
+                          "name": "videoLarge",
+                          "height": 507,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 210,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-mediumThreeByTwo210.jpg",
+                          "name": "mediumThreeByTwo210",
+                          "height": 140,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 225,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-mediumThreeByTwo225.jpg",
+                          "name": "mediumThreeByTwo225",
+                          "height": 150,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 440,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-mediumThreeByTwo440.jpg",
+                          "name": "mediumThreeByTwo440",
+                          "height": 293,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 252,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-mediumThreeByTwo252.jpg",
+                          "name": "mediumThreeByTwo252",
+                          "height": 168,
+                          "__typename": "ImageRendition"
+                        },
+                        {
+                          "width": 378,
+                          "url": "https://static01.nyt.com/images/2018/01/02/us/politics/02DC-BAR/02DC-BAR-mediumThreeByTwo378.jpg",
+                          "name": "mediumThreeByTwo378",
+                          "height": 252,
+                          "__typename": "ImageRendition"
+                        }
+                      ],
+                      "__typename": "ImageCrop"
+                    }
+                  ]
+                },
+                "section": {
+                  "displayName": "U.S.",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2EzNGQzZDZjLWM3N2YtNTkzMS1iOTUxLTI0MWI0ZTI4NjgxYw==",
+                  "__typename": "Section"
+                },
+                "subsection": {
+                  "displayName": "Politics",
+                  "id": "U2VjdGlvbjpueXQ6Ly9zZWN0aW9uLzUzMzU4NzM5LTk3MzMtNWRmYi1iNmNmLTZmZGRjNDJjZjgzOQ==",
+                  "__typename": "Section"
+                },
+                "bylines": [
+                  {
+                    "renderedRepresentation": "By Adam Liptak",
+                    "__typename": "Byline"
+                  }
+                ],
+                "creativeWorkHeadline": {
+                  "default": "Pulled Over in a Rental Car, With Heroin in the Trunk",
+                  "__typename": "CreativeWorkHeadline"
+                },
+                "creativeWorkSummary": "The Supreme Court will hear arguments next week about whether drivers not listed in rental car agreements give up their privacy rights.",
+                "lastModified": "2018-01-02T10:24:31.333Z",
+                "lastMajorModification": "2018-01-01T22:33:03.000Z",
+                "firstPublished": "2018-01-01T10:00:28.000Z"
+              }
+            },
+            "__typename": "LegacySearchHitsEdge"
+          }
+        ]
+      }
+    }
+  }
+}

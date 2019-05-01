@@ -1,0 +1,16 @@
+{
+  "operationName": "SearchRootQuery",
+  "variables": {
+    "first": 10,
+    "sort": "oldest",
+    "beginDate": "20180101",
+    "endDate": "20180201",
+    "cursor": "YXJyYXljb25uZWN0aW9uOjI5"
+  },
+  "extensions": {
+    "persistedQuery": {
+      "version": 1,
+      "sha256Hash": "c1bcbffdd277354a36f6bae9ec896a962c870533829c6d1b174b14b0b78b6407"
+    }
+  }
+}
