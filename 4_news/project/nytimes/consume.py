@@ -1,11 +1,8 @@
 import asyncio
 import json
-from datetime import datetime
-from time import time
 
 from aiohttp import ClientSession, TCPConnector
 from parsel import Selector
-from redis import Redis
 
 """
 This module contains Consumer crawler which takes in article urls and
@@ -66,10 +63,3 @@ class Consumer:
         loop = asyncio.get_event_loop()
         return loop.run_until_complete(self._crawl(urls))
 
-
-def test_crawler():
-    from nytimes.discover import Discover
-
-
-if __name__ == '__main__':
-    test_crawler()
