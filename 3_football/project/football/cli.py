@@ -72,6 +72,7 @@ def monitor(obj, file, history_file):
 @click.argument('slackhook')
 @click.pass_obj
 def monitor_slack(obj, channel, slackhook):
+    """send monitor results to a slack channel"""
     notifier = SlackNotifier(slackhook, channel)
     data = read_data(obj['file'])
     monitor = Monitor([notifier], history_file=obj['history_file'])
