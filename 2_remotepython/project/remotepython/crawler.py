@@ -1,10 +1,8 @@
-from pprint import pprint
 from typing import Tuple, List
 from urllib.parse import urljoin
 
 from parsel import Selector
 from requests import Session
-import parsel
 
 
 def crawl_pagination(url, session) -> Tuple[List, str]:
@@ -14,7 +12,8 @@ def crawl_pagination(url, session) -> Tuple[List, str]:
     job_urls, next_page_url = parse_pagination(response.text)
     # convert relative urls to absolute urls
     job_urls = [urljoin(url, job_url) for job_url in job_urls]
-    next_page_url = urljoin(url, next_page_url)
+    if next_page_url:
+        next_page_url = urljoin(url, next_page_url)
     print(f'  found {len(job_urls)} jobs')
     return job_urls, next_page_url
 
@@ -23,7 +22,7 @@ def parse_pagination(html) -> Tuple[List, str]:
     """find all job links and next page link in pagination html"""
     sel = Selector(text=html)
     jobs = sel.css('div.item h3 a::attr(href)').extract()
-    next_page = sel.css('a[aria-label=Next]::attr(href)').extract_first('')
+    next_page = sel.css('a[aria-label=Next]::attr(href)').extract_first()
     return jobs, next_page
 
 
@@ -74,14 +73,9 @@ def crawl(start_url):
     e.g. https://www.remotepython.com/jobs/
     """
     with Session() as session:
-        job_urls, next_page = crawl_pagination(start_url, session)
+        next_page = start_url
         while next_page:
+            job_urls, next_page = crawl_pagination(next_page, session)
             for job_url in job_urls:
                 yield crawl_job(job_url, session)
-            break
-            job_urls, next_page = crawl_pagination(next_page, session)
 
-
-if __name__ == '__main__':
-    # crawl('https://www.remotepython.com/jobs/')
-    crawl_job('https://www.remotepython.com/jobs/fc8a246e8f0f47f480ddbcb55e7cd7b0/', Session())
