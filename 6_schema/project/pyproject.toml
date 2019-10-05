@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "schema"
+version = "1.0.0"
+description = "Articles crawler for schema.com"
+authors = ["Bernardas Ališauskas <bernardas.alisauskas@pm.com>"]
+license = "GPL-3.0+"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+requests = "^2.22"
+parsel = "^1.5"
+aiohttp = "^3.6"
+extruct = "^0.7.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+parselcli = "^0.33.1"
+
+[tool.poetry.scripts]
+schema = 'schema.cli:main'
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
